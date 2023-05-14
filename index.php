@@ -16,7 +16,7 @@
                                                 <i class="dashicons dashicons-privacy d-block"></i>
                                             </span>
 										<?php else :
-											echo mb_strimwidth( strip_shortcodes( strip_tags( get_the_content() ) ), 0, 300, '...' );
+											// echo mb_strimwidth( strip_shortcodes( strip_tags( get_the_content() ) ), 0, 300, '...' );
 										endif; ?>
                                     </p>
                                 </main>
